@@ -305,7 +305,7 @@ const Index = () => {
             
             <div className="bg-muted/50 rounded-2xl h-[500px] flex items-center justify-center border-2 border-border overflow-hidden">
               <iframe 
-                src="https://yandex.ru/map-widget/v1/?ll=61.458801%2C57.009718&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzExNDIxNBJC0KDQvtGB0YHQuNGPLCDQodCy0LXRgNC00LvQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCQ0YHQsdC10YHRgiIKDXSrNEIVoQtXQg%2C%2C&z=14"
+                src="https://yandex.ru/map-widget/v1/?ll=61.458536%2C57.009831&z=17&mode=whatshere&whatshere%5Bpoint%5D=61.458536%2C57.009831&whatshere%5Bzoom%5D=17&text=Свердловская%20область%2C%20город%20Асбест%2C%20проспект%20Ленина%2C%20дом%2010"
                 width="100%"
                 height="100%"
                 frameBorder="0"
