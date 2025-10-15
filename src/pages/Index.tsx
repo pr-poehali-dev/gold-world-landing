@@ -67,7 +67,11 @@ const Index = () => {
           <div className="mb-8 flex justify-center">
             <div className="w-32 h-32 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-primary/30 shadow-2xl relative animate-float">
               <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent rounded-full animate-rotate-slow" />
-              <Icon name="Gem" size={64} className="text-primary relative z-10" />
+              <img 
+                src="https://cdn.poehali.dev/files/a4a8902c-a3d8-44e9-982d-54c20ce89c31.png" 
+                alt="Золотой Мир" 
+                className="w-20 h-20 object-contain relative z-10"
+              />
             </div>
           </div>
           
