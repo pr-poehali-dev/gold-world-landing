@@ -58,10 +58,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/30">
-      <section className="relative min-h-screen flex items-center justify-center px-4 py-20 bg-gradient-to-br from-background via-primary/5 to-background overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://cdn.poehali.dev/projects/f1134b82-2183-492c-91c5-733281c0acb9/files/e68c5937-5177-41a7-aba4-31ef532c11f1.jpg')] bg-cover bg-center opacity-5" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+      <section className="relative min-h-screen flex items-center justify-center px-4 py-20 bg-gradient-to-br from-background via-primary/10 to-background overflow-hidden">
+        <div className="absolute inset-0 bg-[url('https://cdn.poehali.dev/projects/f1134b82-2183-492c-91c5-733281c0acb9/files/e68c5937-5177-41a7-aba4-31ef532c11f1.jpg')] bg-cover bg-center opacity-20" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/15 rounded-full blur-3xl" />
         
         <div className="relative z-10 text-center max-w-4xl mx-auto animate-fade-in">
           <div className="mb-8 flex justify-center">
