@@ -67,6 +67,24 @@ const Index = () => {
           <div className="mb-8 flex justify-center">
             <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center border-2 border-primary/30 shadow-2xl relative animate-float overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/50 to-transparent rounded-full animate-rotate-slow" />
+              
+              {/* Золотые блестки */}
+              <div className="sparkle" style={{top: '15%', left: '20%', animationDelay: '0s'}} />
+              <div className="sparkle" style={{top: '25%', right: '15%', animationDelay: '0.3s'}} />
+              <div className="sparkle" style={{top: '45%', left: '10%', animationDelay: '0.6s'}} />
+              <div className="sparkle" style={{top: '60%', right: '25%', animationDelay: '0.9s'}} />
+              <div className="sparkle" style={{top: '75%', left: '30%', animationDelay: '1.2s'}} />
+              <div className="sparkle" style={{top: '35%', right: '35%', animationDelay: '1.5s'}} />
+              <div className="sparkle" style={{top: '80%', right: '18%', animationDelay: '1.8s'}} />
+              <div className="sparkle" style={{top: '20%', left: '40%', animationDelay: '2.1s'}} />
+              <div className="sparkle" style={{top: '50%', right: '10%', animationDelay: '2.4s'}} />
+              <div className="sparkle" style={{top: '70%', left: '15%', animationDelay: '2.7s'}} />
+              <div className="sparkle" style={{top: '30%', right: '45%', animationDelay: '3s', width: '3px', height: '3px'}} />
+              <div className="sparkle" style={{top: '55%', left: '35%', animationDelay: '3.3s', width: '3px', height: '3px'}} />
+              <div className="sparkle" style={{top: '85%', right: '40%', animationDelay: '3.6s', width: '5px', height: '5px'}} />
+              <div className="sparkle" style={{top: '10%', left: '50%', animationDelay: '3.9s', width: '3px', height: '3px'}} />
+              <div className="sparkle" style={{top: '65%', right: '50%', animationDelay: '4.2s'}} />
+              
               <img 
                 src="https://cdn.poehali.dev/files/a4a8902c-a3d8-44e9-982d-54c20ce89c31.png" 
                 alt="Золотой Мир" 

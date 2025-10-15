@@ -196,4 +196,25 @@
   .animate-rotate-slow {
     animation: rotate-slow 20s linear infinite;
   }
+
+  @keyframes sparkle {
+    0%,
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .sparkle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: linear-gradient(45deg, #fbbf24, #f59e0b);
+    border-radius: 50%;
+    animation: sparkle 2s ease-in-out infinite;
+  }
 }
