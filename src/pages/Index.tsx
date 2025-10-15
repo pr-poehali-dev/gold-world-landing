@@ -60,30 +60,30 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/30">
       <section className="relative min-h-screen flex items-center justify-center px-4 py-20 bg-gradient-to-br from-background via-primary/10 to-background overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://cdn.poehali.dev/projects/f1134b82-2183-492c-91c5-733281c0acb9/files/e68c5937-5177-41a7-aba4-31ef532c11f1.jpg')] bg-cover bg-center opacity-20" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/15 rounded-full blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse-glow" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/15 rounded-full blur-3xl animate-pulse-glow" style={{animationDelay: '1.5s'}} />
         
         <div className="relative z-10 text-center max-w-4xl mx-auto animate-fade-in">
           <div className="mb-8 flex justify-center">
-            <div className="w-32 h-32 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-primary/30 shadow-2xl relative">
-              <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent rounded-full" />
+            <div className="w-32 h-32 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-primary/30 shadow-2xl relative animate-float">
+              <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent rounded-full animate-rotate-slow" />
               <Icon name="Gem" size={64} className="text-primary relative z-10" />
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 text-foreground relative">
+          <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 text-foreground relative animate-fade-in" style={{animationDelay: '0.2s'}}>
             <span className="bg-gradient-to-r from-foreground via-primary/80 to-foreground bg-clip-text text-transparent">ЗОЛОТОЙ МИР</span>
           </h1>
           
-          <p className="text-2xl md:text-3xl font-heading mb-4 bg-gradient-to-r from-primary via-primary/90 to-primary bg-clip-text text-transparent">
+          <p className="text-2xl md:text-3xl font-heading mb-4 bg-gradient-to-r from-primary via-primary/90 to-primary bg-clip-text text-transparent animate-fade-in" style={{animationDelay: '0.4s'}}>
             Полный цикл ювелирных услуг в Асбесте
           </p>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.6s'}}>
             Ремонт, изготовление и продажа украшений — от вашей идеи до готового шедевра
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{animationDelay: '0.8s'}}>
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary via-primary/95 to-primary hover:from-primary/90 hover:via-primary/85 hover:to-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium rounded-full shadow-lg hover:shadow-xl transition-all relative overflow-hidden group"
