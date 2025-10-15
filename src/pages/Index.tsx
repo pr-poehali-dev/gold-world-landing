@@ -65,8 +65,8 @@ const Index = () => {
         
         <div className="relative z-10 text-center max-w-4xl mx-auto animate-fade-in">
           <div className="mb-8 flex justify-center">
-            <div className="w-32 h-32 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-primary/30 shadow-2xl relative animate-float">
-              <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent rounded-full animate-rotate-slow" />
+            <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center border-2 border-primary/30 shadow-2xl relative animate-float overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/50 to-transparent rounded-full animate-rotate-slow" />
               <img 
                 src="https://cdn.poehali.dev/files/a4a8902c-a3d8-44e9-982d-54c20ce89c31.png" 
                 alt="Золотой Мир" 
