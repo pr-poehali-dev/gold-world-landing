@@ -72,7 +72,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 text-foreground relative">
-            <span className="bg-gradient-to-r from-foreground via-primary/80 to-foreground bg-clip-text text-transparent">ЗОЛОТО МИР</span>
+            <span className="bg-gradient-to-r from-foreground via-primary/80 to-foreground bg-clip-text text-transparent">ЗОЛОТОЙ МИР</span>
           </h1>
           
           <p className="text-2xl md:text-3xl font-heading mb-4 bg-gradient-to-r from-primary via-primary/90 to-primary bg-clip-text text-transparent">
@@ -231,6 +231,188 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-gradient-to-b from-card via-primary/5 to-card relative">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent opacity-30" />
+        <div className="max-w-6xl mx-auto relative z-10">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-center mb-6 text-foreground">
+            Цены на услуги
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg">
+            Прозрачное ценообразование — вы всегда знаете за что платите
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <Card className="border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl relative overflow-hidden group">
+              <CardContent className="p-8">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 relative">
+                    <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent rounded-xl" />
+                    <Icon name="Wrench" size={28} className="text-primary relative z-10" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-heading font-bold text-foreground mb-2">Ремонт украшений</h3>
+                    <p className="text-sm text-muted-foreground">Цены зависят от сложности работы</p>
+                  </div>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Пайка изделий</span>
+                    <span className="font-semibold text-foreground">от 500 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Замена замков</span>
+                    <span className="font-semibold text-foreground">от 800 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Рихтовка кольца</span>
+                    <span className="font-semibold text-foreground">от 300 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Полировка изделия</span>
+                    <span className="font-semibold text-foreground">от 400 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground">Изменение размера кольца</span>
+                    <span className="font-semibold text-foreground">от 600 ₽</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-primary bg-primary/5 ring-2 ring-primary/20 transition-all duration-300 hover:shadow-xl relative overflow-hidden group">
+              <CardContent className="p-8">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/30 via-primary/20 to-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 relative">
+                    <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent rounded-xl" />
+                    <Icon name="Sparkles" size={28} className="text-primary relative z-10" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-heading font-bold text-foreground mb-2">Изготовление на заказ</h3>
+                    <p className="text-sm text-muted-foreground">Индивидуальный расчёт по проекту</p>
+                  </div>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Простое кольцо</span>
+                    <span className="font-semibold text-foreground">от 15 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Кольцо с камнями</span>
+                    <span className="font-semibold text-foreground">от 25 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Серьги</span>
+                    <span className="font-semibold text-foreground">от 20 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Подвески</span>
+                    <span className="font-semibold text-foreground">от 18 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground">Браслеты</span>
+                    <span className="font-semibold text-foreground">от 30 000 ₽</span>
+                  </div>
+                </div>
+                <div className="mt-6 p-4 bg-primary/10 rounded-lg">
+                  <p className="text-sm text-muted-foreground">
+                    <Icon name="Info" size={16} className="inline mr-1 text-primary" />
+                    Точная стоимость рассчитывается с учётом веса золота, камней и сложности работы
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl relative overflow-hidden group">
+              <CardContent className="p-8">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 relative">
+                    <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent rounded-xl" />
+                    <Icon name="ShoppingBag" size={28} className="text-primary relative z-10" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-heading font-bold text-foreground mb-2">Готовые украшения</h3>
+                    <p className="text-sm text-muted-foreground">Цены на изделия из наличия</p>
+                  </div>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Золотые кольца</span>
+                    <span className="font-semibold text-foreground">от 10 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Золотые серьги</span>
+                    <span className="font-semibold text-foreground">от 12 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Золотые цепи</span>
+                    <span className="font-semibold text-foreground">от 15 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Золотые подвески</span>
+                    <span className="font-semibold text-foreground">от 8 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground">Браслеты из золота</span>
+                    <span className="font-semibold text-foreground">от 18 000 ₽</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl relative overflow-hidden group">
+              <CardContent className="p-8">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 relative">
+                    <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent rounded-xl" />
+                    <Icon name="Gem" size={28} className="text-primary relative z-10" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-heading font-bold text-foreground mb-2">Дополнительно</h3>
+                    <p className="text-sm text-muted-foreground">Другие услуги</p>
+                  </div>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Консультация мастера</span>
+                    <span className="font-semibold text-foreground">Бесплатно</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Разработка эскиза</span>
+                    <span className="font-semibold text-foreground">от 1 000 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Оценка изделия</span>
+                    <span className="font-semibold text-foreground">от 500 ₽</span>
+                  </div>
+                  <div className="flex justify-between items-center pb-3 border-b border-border">
+                    <span className="text-muted-foreground">Выезд к клиенту</span>
+                    <span className="font-semibold text-foreground">Договорная</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground">Срочный заказ</span>
+                    <span className="font-semibold text-foreground">+30%</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12 text-center max-w-3xl mx-auto">
+            <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-2xl p-8 border-2 border-primary/20">
+              <Icon name="BadgeCheck" size={48} className="text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-heading font-bold text-foreground mb-3">Гарантия честных цен</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Все цены обсуждаются до начала работы. Никаких скрытых платежей и неожиданных доплат. Вы всегда знаете точную стоимость заказа.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-gradient-to-b from-muted/30 to-background">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-center mb-16 text-foreground">
@@ -240,7 +422,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div className="text-center md:text-left mb-8">
-                <h3 className="text-2xl font-heading font-bold mb-2">Ювелирная студия "Золото Мир"</h3>
+                <h3 className="text-2xl font-heading font-bold mb-2">Ювелирная студия "Золотой Мир"</h3>
                 <p className="text-muted-foreground">г. Асбест, ул. Проспект Ленина д.10</p>
               </div>
 
@@ -297,7 +479,7 @@ const Index = () => {
 
               <div className="pt-6 border-t border-border">
                 <p className="text-sm text-muted-foreground italic leading-relaxed">
-                  «Золото Мир» — ювелирная студия, где каждое украшение создаётся с душой и вниманием к деталям. 
+                  «Золотой Мир» — ювелирная студия, где каждое украшение создаётся с душой и вниманием к деталям. 
                   Мы бережно воплощаем ваши идеи в золоте и бриллиантах, чтобы красота и память жили в каждом изделии.
                 </p>
               </div>
@@ -320,7 +502,7 @@ const Index = () => {
       <footer className="bg-foreground text-background py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-sm opacity-80">
-            © 2025 Золото Мир. Все права защищены.
+            © 2025 Золотой Мир. Все права защищены.
           </p>
           <p className="text-xs opacity-60 mt-2">
             Сделано с любовью к золоту
